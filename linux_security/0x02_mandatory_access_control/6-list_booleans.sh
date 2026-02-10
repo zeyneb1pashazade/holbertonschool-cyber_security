@@ -1,2 +1,2 @@
 #!/bin/bash
-semanage bool -l
+semanage boolean -l
