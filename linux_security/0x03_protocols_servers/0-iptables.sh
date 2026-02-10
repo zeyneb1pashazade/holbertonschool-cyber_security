@@ -1,2 +1,2 @@
 #!/bin/bash
-iptables -S
+iptables -S -v
