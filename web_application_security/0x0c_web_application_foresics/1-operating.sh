@@ -1,2 +1,2 @@
 #!/bin/bash
-awk -F '"' '{print $6}' dmesg | sort | uniq -c | sort -nr | head -n 1
+grep "Linux version" dmesg | awk '{print $3}'
