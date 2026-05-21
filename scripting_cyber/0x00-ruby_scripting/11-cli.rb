@@ -53,10 +53,9 @@ elsif options[:list]
   if tasks.empty?
     puts "No tasks found."
   else
-    # FIX: Print the header title line and indented text format expected by the grader
     puts "Tasks:"
     tasks.each do |task|
-      puts "    #{task}"
+      puts "  #{task}"
     end
   end
 
